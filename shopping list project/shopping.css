@@ -39,12 +39,14 @@ button:hover{
     text-align: right;
 }
 div{
-    width:440px;
+    width:450px;
     
 }
 .pay{
     float: right;
     margin-right: 4px;
 }
-
+.edit{
+    padding-right: 11px;
+}
 
