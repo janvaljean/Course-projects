@@ -1,0 +1,82 @@
+body{
+    background-image: url("./background_image.jpg");
+    color: white;
+}
+#container{
+    
+    background-color: rgba(29, 28, 28, 0.4);
+    width: 35%;
+    
+
+    margin: auto;   
+}
+form{
+    background-color:rgba(29, 28, 28, 0.7);
+    width: 70%;
+    
+    margin: auto;
+    height: 100%;
+    line-height: 35px;
+    font-family: 'Times New Roman', Times, serif;  
+    font-size: small; 
+    padding: 20px;  
+}
+span{
+    color: red;
+
+}
+#title{
+    font-family: 'Titan One', cursive;;
+}
+.first , .second{
+    font-size: larger;
+}
+.first{color: white;}
+
+#title , #discription {text-align: center;}
+
+.gender , .movie{
+    line-height: 15px;
+}
+#name,#age,#email,#content,#feedback{
+
+     font-size:10pt;
+     height:30px;
+     width:80%;
+    
+}
+#button{
+    padding: 10px 40px;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+   
+    
+
+}
+#button:hover{
+    background-color: white;
+    color: red;
+
+}
+.button{
+    /* height: 100px;
+    position: relative;
+    border: 3px solid green;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70pxpx;
+    
+}
