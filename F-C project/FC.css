@@ -2,7 +2,7 @@
 .box{
     width: 40px;
     height: 40px;
-    background-color: blue;
+    background-color: rgb(79, 79, 84);
     margin: 5px;
 }
 .first{
@@ -10,7 +10,7 @@
 }
 .ten{
     position: absolute;
-    top:0;
+    top:3px;
     right: 0;
 }
 .ft{
@@ -30,12 +30,12 @@
 }
 .ctop1{
     position: absolute;
-    top: 1px;
+    top: 3px;
     right: 44px;
 }
 .ctop2{
     position: absolute;
-    top: 1px;
+    top: 3px;
     right: 88px;
 }
 .cbottom1{
@@ -44,11 +44,16 @@
 }
 .box17{
     position: absolute;
-    top: 180px;
+    top: 183px;
     right: 44px;;
 }
 .box16{
     position: absolute;
-    top: 180px;
+    top: 183px;
     right: 88px;;
+}
+.big{
+    background-color: pink;
+  
+    
 }
