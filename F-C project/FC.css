@@ -1,0 +1,54 @@
+
+.box{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    margin: 5px;
+}
+.first{
+    position: absolute;
+}
+.ten{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.ft{
+    position: absolute;
+    top: 3px ;
+    left: 52px;
+}
+.ft2{
+    position: absolute;
+    top: 3px;
+    left: 96px;
+}
+.fm{
+    position: absolute;
+    top: 93px;
+    left: 52px;
+}
+.ctop1{
+    position: absolute;
+    top: 1px;
+    right: 44px;
+}
+.ctop2{
+    position: absolute;
+    top: 1px;
+    right: 88px;
+}
+.cbottom1{
+    position: absolute;
+    
+}
+.box17{
+    position: absolute;
+    top: 180px;
+    right: 44px;;
+}
+.box16{
+    position: absolute;
+    top: 180px;
+    right: 88px;;
+}
