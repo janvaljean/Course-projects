@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(77, 77, 77);
+}
+ul{
+    border: 1px solid;
+    height: 90vw;
+    background-color: orange;
+    list-style: none;
+    width: 40%;
+
+}
+nav{
+    width: 60%;
+    display: inline;
+   
+}
+.acilir-menu ul{
+    display: none;
+    
+}
+.acilir-menu:hover ul{
+    display: block;
+    
+ }
+div{
+    background-color: orange;
+    display: inline-block;
+    height: 89vw;
+    width: 10%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    
+}
+.arrow{
+    font-size: 25px;
+    font: bold;
+    display: inline-block;
+    
+    width: 90vw;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    background-color: rgba(77, 77, 77,0.4);
+
+}
+.menu{
+    color: white;
+}
+a{
+    color: black;
+    text-decoration-style: none;
+}
