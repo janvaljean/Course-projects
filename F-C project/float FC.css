@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    text-align: center;
+    
+
+    
+
+}
+.top{
+    float: left;
+    background-color: pink;
+    
+}
+.fmiddle{
+    position: relative;
+    top: 100px;q
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    background-color: blue;
+    text-align: center;
+    
+    
+    
+}
