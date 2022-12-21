@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+p{
+    height: 20vw;
+    padding: 5px;
+}
+div{
+    position: relative;
+}
+
+.logo1{   
+    border-radius: 20% 0 ;   
+    padding: 5px;
+      
+}
+.logo2{
+    
+    border: 1px solid black;  
+    border-radius: 5% 0;
+    
+}
+.pos{
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 30px;
+    background-color: rgb(61, 61, 61);
+    display: inline-block;
+    color: white;
+    border: 2px solid black;
+    outline: 3px solid rebeccapurple;
+        outline-offset: 4px;
+    
+}
+
+.bg {
+    height: 70vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.image0{
+    background-image: url(./bg.jpg);
+}
+.image1{
+    background-image: url(./bg1.jpg);
+}
+.image2 {
+    background-image: url(./bg2.jpg);
+}
+
+.image3 {
+    background-image: url(./bg3.jpg);
+}
+.image4 {
+    background-image: url(./bg4.jpg);
+}
+.image5{
+    background-image: url(./bg.jpg);
+}
+img{
+    height: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.full , .data{
+    background-color: rgb(222, 217, 217);
+}
+.aws , .why{
+    background-color:black ;
+    color: white;
+}
