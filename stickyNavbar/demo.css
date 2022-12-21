@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgb(110, 108, 108);
+}
+.navbar-1{
+    background-color: rgb(56, 55, 54);
+    border: 1px solid white;
+    height: 24px;
+    color: white;
+    
+}
+.menu {
+    display: inline-block;
+    position: absolute;
+    right: 16px;
+    top: 0;   
+    padding: 2px;
+}
+.menu a{
+    color: white;
+}
+h3{
+    display: inline-block;
+    border-right: 1px solid white;
+    width: 50%;
+    font-size: 20px;
+    padding: 1px;
+    
+}
+.navbar-2{
+    background-color: rgb(188, 187, 184);
+    border: 1px solid white;
+
+}
+.menu2{
+    display: inline-block;
+    position: absolute;
+    right: 16px;
+    top: 24px;
+    padding: 10px;
+    
+}
+h1 {
+    display: inline-block;
+    border-right: 1px solid white;
+    width: 50%;
+    font-size: 48px;
+
+}
+.menu2 a{
+    color: black;
+    font-size: 24px;
+    margin: 3px;
+
+}
+a{
+    text-decoration: none;
+}
+img{
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+}
