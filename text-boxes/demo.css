@@ -1,27 +1,10 @@
-* {
+*{
     margin: 0px;
 }
-
 .box {
     border: solid 1px;
     width: 300px;
     height: 40px;
-}
-.box{
-    border: solid 1px;
-    width: 300px;
-    height: 40px;
-    margin: 10px;
-}
-.box1 {
-    border-radius: 10px;
-}
-i{
-    font-size: 30px;
-    padding: 1px ;
-    position: relative;
-    top: 4px;
-    left: 90%;
 }
 
 /* --------- */
@@ -30,21 +13,19 @@ i{
     border-radius: 15px;
     text-align: center;
     padding-top: 10px;
-    height: 30px;
+    height: 29px;
     background-color: orange;
     position: relative;
-    left: 80%;
-    bottom: 11px;
-
-
-
+    left:240px;
+    
+    
+        
 }
-
 .box3 {
     border-radius: 15px;
     height: 40px;
     background-color: grey;
+    
+    
 
 }
-
-
