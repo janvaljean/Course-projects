@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: aqua;
+    border: solid 10px black;
+    height: 50vh;
+}
+.box{
+    background-color: blue;
+
+
+}
+.box1{
+    background-color: orange;
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+.box2{
+    background-color: green;
+    display: inline-block;
+    width: 50vw;
+    float: right;
+    
+    
+}
+.box3{
+    background-color: blueviolet;
+    
+    display: inline;
+    width: 50px;  
+    
+}
+/* ---- */
+.outline{
+    background-color: orange;
+    margin-top: 5vh;
+    border: solid 1px;
+
+}
+h1{
+    background-color: blueviolet;
+    width: 30vw;
+    outline: 5px solid red;
+    outline-offset: 10px;
+    margin-left: 10vw;
+}
+
+/* ------ */
+.hover1{
+    margin-top: 10vh;
+    background-color: steelblue;
+    width: 10vw;
+    margin-left: 40vw;
+    outline: solid 8px steelblue;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+.hover1:hover{
+    outline: 3px solid steelblue;
+    outline-offset: 15px;
+}
+/* ------- */
+.flexContainer{
+    margin: 50px;
+    background-color: aquamarine;
+    display: flex;
+      
+}
+.flexContainer > div{
+    background-color: orange;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
