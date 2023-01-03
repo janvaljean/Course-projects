@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    font-family: 'Courier New', Courier, monospace;
+}
+.box{
+    width: 30%; 
+    height:30vh;  
+    margin: 8px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+}
+.Box1{
+    background-color: aqua;
+    text-shadow: 2px 2px 4px grey;
+    
+
+}
+.Box2{
+    background: rgb(30, 30, 30);
+    color: black;
+    text-shadow: 2px 2px  rgb(58, 56, 56);
+    
+}
+.Box3 {
+    background: white;
+    color: black;
+    text-shadow: 4px 4px rgb(230, 222, 222);
+    
+    
+}
+.Box4 {
+    background: bisque;
+    text-shadow: 2px 8px 2px #8c8b8b;
+}
+.Box5 {
+    background: darkgreen;
+    color: black;
+    text-shadow: 6px 0px 8px #6e6c6c;
+}
+.Box6 {
+    background: cyan;
+    text-shadow: -6px 3px  #a8a7a7, -8px 6px  #c8c8ca,-10px 9px  #e6e4e4;
+}
